@@ -1,11 +1,12 @@
-import { useState } from "react";
 import NavBar from "./components/NavBar";
-import Button from "./components/Button";
 
 function App() {
   return (
     <>
-      <div>Corper Compass</div>
+      <NavBar />
+      <main>
+        <h1>Corper Compass</h1>
+      </main>
     </>
   );
 }
