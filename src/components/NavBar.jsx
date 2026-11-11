@@ -14,35 +14,35 @@ const NavBar = () => {
       <nav className={styles.navbar}>
         <NavLink
           to="/"
-          className={({ isActive }) => (isActive ? "styles.active" : "")}
+          className={({ isActive }) => (isActive ? styles.active : "")}
         >
           <FiHome className={styles.icon} />
           Dashboard
         </NavLink>
         <NavLink
           to="/"
-          className={({ isActive }) => (isActive ? "styles.active" : "")}
+          className={({ isActive }) => (isActive ? styles.active : "")}
         >
           <MdOutlineExplore className={styles.icon} />
           Explore
         </NavLink>
         <NavLink
           to="/"
-          className={({ isActive }) => (isActive ? "styles.active" : "")}
+          className={({ isActive }) => (isActive ? styles.active : "")}
         >
           <FaStore className={styles.icon} />
           Market
         </NavLink>
         <NavLink
           to="/"
-          className={({ isActive }) => (isActive ? "styles.active" : "")}
+          className={({ isActive }) => (isActive ? styles.active : "")}
         >
           <BsFillPeopleFill className={styles.icon} />
           Social Feed
         </NavLink>
         <NavLink
           to="/"
-          className={({ isActive }) => (isActive ? "styles.active" : "")}
+          className={({ isActive }) => (isActive ? styles.active : "")}
         >
           <RiCommunityFill className={styles.icon} />
           Community
